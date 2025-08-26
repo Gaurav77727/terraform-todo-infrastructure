@@ -11,6 +11,6 @@ jobs:
     name: Dhonudhu Maharaj
     runs-on: gaurvrunner
     steps:
-    - name: Print a greeting
-      run: echo Maharaj ki jai ho
+      - name: Print a greeting
+        run: echo Maharaj ki jai ho
   
