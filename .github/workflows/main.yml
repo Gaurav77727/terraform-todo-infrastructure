@@ -6,3 +6,12 @@ on:
       - 'main'
       - 'releases/**'
   workflow_dispatch: 
+
+jobs:
+- job: TerraformInit
+  displayName: Init
+  runs-on: gaurvrunner
+  steps:
+    - name: Print a greeting
+      run: "echo" "Maharaj ki jai ho"
+  
